@@ -55,7 +55,7 @@ We build **minimal, secure, developer-first systems**—starting with **HeroOS**
 
 ## 🚀 Current focus 
 
-###HeroOS:
+### HeroOS:
 - Bootloader + early kernel bring-up  
 - Memory / interrupts / basic drivers foundations  
 - CLI-first userspace and core tools  
@@ -90,7 +90,6 @@ We build **minimal, secure, developer-first systems**—starting with **HeroOS**
   <img src="https://skillicons.dev/icons?i=c,cpp,rust,linux,bash,git,github,cmake,make&perline=9" alt="Stack icons" />
 </div>
 
-
 ---
 
 ## How to contribute:
@@ -103,18 +102,6 @@ We welcome contributors interested in low-level engineering.
 3. Submit a PR: https://github.com/herooslabs/HeroOS/pulls  
 
 **New to OS dev?** Open an issue titled: **“First contribution — help me pick a task”**.
-
----
-
-## Tech (core)
-
-<div align="center">
-  <img alt="C" src="https://img.shields.io/badge/C-black?style=for-the-badge&logo=c&logoColor=white">
-  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-black?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-  <img alt="Rust" src="https://img.shields.io/badge/Rust-black?style=for-the-badge&logo=rust&logoColor=white">
-  <img alt="Linux" src="https://img.shields.io/badge/Linux-black?style=for-the-badge&logo=linux&logoColor=white">
-  <img alt="Git" src="https://img.shields.io/badge/Git-black?style=for-the-badge&logo=git&logoColor=white">
-</div>
 
 ---
 
