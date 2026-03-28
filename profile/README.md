@@ -130,19 +130,6 @@ We welcome contributors interested in low-level engineering.
 
 **New to OS dev?** Open an issue titled: **“First contribution — help me pick a task”**.
 
----
-
-## Tech (core)
-
-<div align="center">
-  <img alt="C" src="https://img.shields.io/badge/C-black?style=for-the-badge&logo=c&logoColor=white">
-  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-black?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-  <img alt="Rust" src="https://img.shields.io/badge/Rust-black?style=for-the-badge&logo=rust&logoColor=white">
-  <img alt="Linux" src="https://img.shields.io/badge/Linux-black?style=for-the-badge&logo=linux&logoColor=white">
-  <img alt="Git" src="https://img.shields.io/badge/Git-black?style=for-the-badge&logo=git&logoColor=white">
-</div>
-
----
 
 <div align="center">
   <sub>HeroOS Labs — minimal systems engineering, built to be understood.</sub>
