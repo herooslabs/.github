@@ -1,136 +1,155 @@
 <div align="center">
 
-  <!-- Theme-proof header: transparent base + strong gradient -->
+  <!-- Premium, restrained header (1 accent, subtle gradient) -->
   <img
-    src="https://capsule-render.vercel.app/api?type=rect&height=190&section=header&text=HeroOS%20Labs&fontSize=70&fontAlignY=42&desc=Minimal%20%E2%80%A2%20Secure%20%E2%80%A2%20Developer-first%20systems&descAlignY=72&animation=fadeIn&color=0:00D2FF,50:7A5CFF,100:FF2E93"
-    alt="HeroOS Labs header"
     width="100%"
+    alt="HeroOS Labs"
+    src="https://capsule-render.vercel.app/api?type=rect&height=170&section=header&text=HeroOS%20Labs&fontSize=64&fontAlignY=45&desc=Developer-first%20systems%20engineering&descAlignY=73&animation=fadeIn&color=0:0B1220,100:0B1220"
   />
 
-  <!-- Typing SVG: high-contrast color, no background dependency -->
+  <!-- Subtle “shimmer” divider (premium, not flashy) -->
+  <img
+    width="92%"
+    alt="divider"
+    src="https://user-images.githubusercontent.com/74038190/212284126-1a3b5b10-3e7e-4d1f-8fd1-67f7f0a0b9d4.gif"
+  />
+
+  <!-- Typing animation (single accent color, readable on both themes) -->
   <a href="https://github.com/herooslabs">
     <img
-      src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=22&pause=900&color=00C2FF&center=true&vCenter=true&width=900&lines=Bootloader+%E2%86%92+Kernel+%E2%86%92+Userspace.;Clarity+over+complexity.+Control+over+bloat.;A+lightweight%2C+secure%2C+developer-first+OS."
-      alt="Typing animation"
+      alt="Typing"
+      src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=20&pause=900&color=2F81F7&center=true&vCenter=true&width=900&lines=Minimal+OS+engineering.+Security-minded.+Built+to+teach.;Bootloader+%E2%86%92+Kernel+%E2%86%92+Userspace+%E2%86%92+Tooling.;Clarity+over+complexity.+Control+over+bloat."
     />
   </a>
 
   <br/>
   <br/>
 
-  <!-- Badges: colored backgrounds stay readable on both themes -->
-  <a href="https://github.com/herooslabs/HeroOS">
-    <img src="https://img.shields.io/badge/Main%20Project-HeroOS-00C2FF?style=for-the-badge&logo=github&logoColor=white" alt="Main Project"/>
-  </a>
-  <a href="https://github.com/herooslabs/HeroOS/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-GPL--3.0-2EA043?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License"/>
-  </a>
-  <a href="https://github.com/herooslabs/HeroOS/issues">
-    <img src="https://img.shields.io/badge/Issues-Open-F85149?style=for-the-badge&logo=githubissues&logoColor=white" alt="Issues"/>
-  </a>
-  <a href="https://github.com/herooslabs/HeroOS/pulls">
-    <img src="https://img.shields.io/badge/PRs-Welcome-7A5CFF?style=for-the-badge&logo=git&logoColor=white" alt="PRs Welcome"/>
-  </a>
-
-  <br/>
-
-  <!-- Visitor counter (optional, works on both themes) -->
-  <img src="https://komarev.com/ghpvc/?username=herooslabs&style=for-the-badge&color=00C2FF" alt="Profile views"/>
+  <!-- Logo badges (clean + consistent) -->
+  <p>
+    <a href="https://github.com/herooslabs/HeroOS">
+      <img alt="Repo" src="https://img.shields.io/badge/HeroOS-Primary%20Project-2F81F7?style=for-the-badge&logo=github&logoColor=white">
+    </a>
+    <a href="https://github.com/herooslabs/HeroOS/issues">
+      <img alt="Issues" src="https://img.shields.io/badge/Issues-Track-F85149?style=for-the-badge&logo=githubissues&logoColor=white">
+    </a>
+    <a href="https://github.com/herooslabs/HeroOS/pulls">
+      <img alt="PRs" src="https://img.shields.io/badge/PRs-Welcome-2EA043?style=for-the-badge&logo=git&logoColor=white">
+    </a>
+    <a href="https://github.com/herooslabs/HeroOS/blob/main/LICENSE">
+      <img alt="License" src="https://img.shields.io/badge/License-GPL--3.0-6E7681?style=for-the-badge&logo=opensourceinitiative&logoColor=white">
+    </a>
+  </p>
 
 </div>
 
 ---
 
-## ⚡ What is HeroOS Labs?
+## About
 
-We build **minimal, secure, developer-first systems**—starting with **HeroOS**, a practical OS project designed for learning and real engineering.
+**HeroOS Labs** is an organization focused on building **developer-first, security-minded system software**.
 
-### Core principles
-- **Minimal by design** — reduce bloat, increase understanding  
-- **Security as a baseline** — small surface area, tight boundaries  
-- **Developer-first loops** — build → boot → debug, fast and repeatable  
-- **Documentation that teaches** — not just “what”, but “why”  
-
----
-
-## 🚀 Current focus (HeroOS)
-
-- Bootloader + early kernel bring-up  
-- Memory / interrupts / basic drivers foundations  
-- CLI-first userspace and core tools  
-- Build system + debugging workflows (emulator-friendly)
+We prioritize:
+- **Minimal design** (small surface area, understandable architecture)
+- **Fast iteration** (build → boot → debug workflows)
+- **Teaching-quality docs** (learn by reading + changing real code)
 
 ---
 
-## 📌 Featured project
+## What we’re building
+
+### HeroOS — a minimal operating system
+A practical OS project to learn and apply real systems engineering.
+
+**Current direction**
+- Bootloader + early kernel bring-up
+- Memory, interrupts, and foundational drivers
+- CLI-first userspace utilities
+- Tooling & documentation for a smooth learning curve
 
 <div align="center">
 
-  <!-- Pin card (transparent works on both themes) -->
+  <!-- Premium project card (theme adaptive) -->
   <img
+    alt="HeroOS pin"
     src="https://github-readme-stats.vercel.app/api/pin/?username=herooslabs&repo=HeroOS&theme=transparent&hide_border=true"
-    alt="HeroOS repo card"
   />
 
   <br/>
 
-  <!-- Repo metrics (always readable) -->
-  <img src="https://img.shields.io/github/stars/herooslabs/HeroOS?style=for-the-badge&color=00C2FF&label=Stars" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/herooslabs/HeroOS?style=for-the-badge&color=7A5CFF&label=Forks" alt="Forks"/>
-  <img src="https://img.shields.io/github/issues/herooslabs/HeroOS?style=for-the-badge&color=FF2E93&label=Issues" alt="Issues"/>
-
+  <!-- Minimal metrics row -->
+  <img alt="Stars" src="https://img.shields.io/github/stars/herooslabs/HeroOS?style=flat&label=stars&color=2F81F7">
+  <img alt="Forks" src="https://img.shields.io/github/forks/herooslabs/HeroOS?style=flat&label=forks&color=6E7681">
+  <img alt="Issues" src="https://img.shields.io/github/issues/herooslabs/HeroOS?style=flat&label=issues&color=F85149">
 </div>
 
 ---
 
-## 🛠️ Stack
+## Engineering principles
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,rust,linux,bash,git,github,cmake,make&perline=9" alt="Stack icons" />
+  <table>
+    <tr>
+      <td width="50%"><b>Clarity over cleverness</b><br/>Readable systems scale better than “smart” ones.</td>
+      <td width="50%"><b>Small & auditable</b><br/>Reduce trusted computing base where possible.</td>
+    </tr>
+    <tr>
+      <td width="50%"><b>Measure, then optimize</b><br/>Performance work should be evidence-driven.</td>
+      <td width="50%"><b>Docs are part of the product</b><br/>If it’s not documented, it’s not finished.</td>
+    </tr>
+  </table>
 </div>
 
 ---
 
-## 📈 Activity (theme adaptive)
+## Tech (core)
 
 <div align="center">
-
-  <!-- Stats: transparent theme adapts nicely -->
   <img
+    alt="Tech stack"
+    src="https://skillicons.dev/icons?i=c,cpp,rust,linux,bash,git,github,cmake,make&perline=9"
+  />
+</div>
+
+---
+
+## Org activity (theme adaptive)
+
+<div align="center">
+
+  <img
+    width="49%"
+    alt="Stats"
     src="https://github-readme-stats.vercel.app/api?username=herooslabs&show_icons=true&theme=transparent&hide_border=true"
-    width="49%"
-    alt="GitHub stats"
   />
   <img
-    src="https://streak-stats.demolab.com?user=herooslabs&theme=transparent&hide_border=true"
     width="49%"
-    alt="GitHub streak"
+    alt="Streak"
+    src="https://streak-stats.demolab.com?user=herooslabs&theme=transparent&hide_border=true"
   />
 
 </div>
 
 <div align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=herooslabs&bg_color=transparent&color=7A5CFF&line=00C2FF&point=FF2E93&area=true&hide_border=true"
     alt="Activity graph"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=herooslabs&bg_color=transparent&color=6E7681&line=2F81F7&point=2F81F7&area=true&hide_border=true"
   />
 </div>
 
 ---
 
-## 🤝 Contribute
+## Contribute
 
-- Browse issues: https://github.com/herooslabs/HeroOS/issues  
-- Open a PR: https://github.com/herooslabs/HeroOS/pulls  
+We welcome contributors who enjoy low-level engineering.
 
-If you’re new, open an issue titled **“First task request”** and we’ll guide you.
+- Pick an issue: https://github.com/herooslabs/HeroOS/issues  
+- Submit a PR: https://github.com/herooslabs/HeroOS/pulls  
+
+**New to OS dev?** Open an issue titled: **“First contribution — guidance needed”** and we’ll help you choose a starting task.
+
+---
 
 <div align="center">
-  <br/>
-  <!-- Footer matches header gradient -->
-  <img
-    src="https://capsule-render.vercel.app/api?type=rect&height=110&section=footer&animation=fadeIn&color=0:00D2FF,50:7A5CFF,100:FF2E93"
-    alt="footer"
-    width="100%"
-  />
+  <sub>© HeroOS Labs • Systems engineering, built to be understood.</sub>
 </div>
