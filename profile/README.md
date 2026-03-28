@@ -1,53 +1,41 @@
-# HeroOS Labs
+# ⚡ HeroOS Labs
 
-Building a lightweight, secure, developer-first operating system.
+> Building a **lightweight, secure, developer-first operating system**
 
----
-
-## About
-
-HeroOS Labs is an open-source initiative focused on systems engineering, developer tooling, and security-first architecture.
-
-We design software that prioritizes:
-
-* Performance
-* Simplicity
-* Reliability
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://github.com/herooslabs/HeroOS/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/herooslabs/HeroOS?style=flat-square)](https://github.com/herooslabs/HeroOS)
+[![Open Issues](https://img.shields.io/github/issues/herooslabs/HeroOS?style=flat-square)](https://github.com/herooslabs/HeroOS/issues)
 
 ---
 
-## HeroOS
+## 🎯 Mission
 
-HeroOS is a minimal, fast operating system built for developers and students.
+We're engineering **systems that matter**.
 
-**Current focus:**
-
-* Bootloader & Kernel development
-* CLI-based developer environment
-* Lightweight system design
-* Security fundamentals
+We don't build for complexity. We build for **clarity, control, and efficiency.**
 
 ---
 
-## Philosophy
+## 🚀 What We're Building
 
-We don’t build for complexity.
-We build for clarity, control, and efficiency.
+### **HeroOS** — A Minimal, Fast Operating System
+
+**Designed for developers and students** who want to understand how systems actually work.
+
+#### Current Focus:
+- 🔧 **Bootloader & Kernel Development** — Low-level system architecture
+- 💻 **CLI-based Developer Environment** — Lightweight, scriptable, powerful
+- ⚙️ **Lightweight System Design** — Minimal dependencies, maximum performance
+- 🔒 **Security Fundamentals** — Built from the ground up with security in mind
+
+#### Why HeroOS?
+| Feature | Benefit |
+|---------|---------|
+| **Minimal** | Understand every line of code |
+| **Fast** | No unnecessary overhead |
+| **Open** | 100% transparent development |
+| **Educational** | Learn real systems engineering |
 
 ---
 
-## Tech
-
-C • Assembly • Linux • Git
-
----
-
-## Status
-
-Early-stage development. Actively evolving.
-
----
-
-## Contact
-
-https://github.com/herooslabs
+## 🛠️ Tech Stack
