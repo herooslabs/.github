@@ -90,32 +90,6 @@ We build **minimal, secure, developer-first systems**—starting with **HeroOS**
   <img src="https://skillicons.dev/icons?i=c,cpp,rust,linux,bash,git,github,cmake,make&perline=9" alt="Stack icons" />
 </div>
 
----
-
-## 📈 Activity
-
-<div align="center">
-
-  <!-- Stats: transparent theme adapts nicely -->
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=herooslabs&show_icons=true&theme=transparent&hide_border=true"
-    width="49%"
-    alt="GitHub stats"
-  />
-  <img
-    src="https://streak-stats.demolab.com?user=herooslabs&theme=transparent&hide_border=true"
-    width="49%"
-    alt="GitHub streak"
-  />
-
-</div>
-
-<div align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=herooslabs&bg_color=transparent&color=7A5CFF&line=00C2FF&point=FF2E93&area=true&hide_border=true"
-    alt="Activity graph"
-  />
-</div>
 
 ---
 
