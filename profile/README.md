@@ -1,106 +1,125 @@
 <div align="center">
 
-  <!-- Clean “white card” hero banner (works in dark + light because it's an image) -->
+  <!-- Theme-proof header: transparent base + strong gradient -->
   <img
+    src="https://capsule-render.vercel.app/api?type=rect&height=190&section=header&text=HeroOS%20Labs&fontSize=70&fontAlignY=42&desc=Minimal%20%E2%80%A2%20Secure%20%E2%80%A2%20Developer-first%20systems&descAlignY=72&animation=fadeIn&color=0:00D2FF,50:7A5CFF,100:FF2E93"
+    alt="HeroOS Labs header"
     width="100%"
-    alt="HeroOS Labs — Developer-first systems engineering"
-    src="https://capsule-render.vercel.app/api?type=rect&height=210&section=header&text=HeroOS%20Labs&fontSize=72&fontAlignY=40&desc=Developer-first%20systems%20engineering&descAlignY=68&animation=fadeIn&color=0:FFFFFF,100:FFFFFF&fontColor=0B0F14"
   />
 
-  <!-- Minimal animated underline (subtle, premium) -->
-  <img
-    alt="divider"
-    width="420"
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=18&pause=1200&color=0B0F14&center=true&vCenter=true&width=420&lines=%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94%E2%80%94"
-  />
-
-  <!-- “Cool animation” but still monochrome: black text on transparent -->
+  <!-- Typing SVG: high-contrast color, no background dependency -->
   <a href="https://github.com/herooslabs">
     <img
-      alt="Typing"
-      src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=22&pause=900&color=0B0F14&center=true&vCenter=true&width=980&lines=Minimal+OS+engineering.;Security-minded+systems.;Bootloader+%E2%86%92+Kernel+%E2%86%92+Userspace+%E2%86%92+Tooling."
+      src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=22&pause=900&color=00C2FF&center=true&vCenter=true&width=900&lines=Bootloader+%E2%86%92+Kernel+%E2%86%92+Userspace.;Clarity+over+complexity.+Control+over+bloat.;A+lightweight%2C+secure%2C+developer-first+OS."
+      alt="Typing animation"
     />
   </a>
 
   <br/>
   <br/>
 
-  <!-- Monochrome badges (clean, visible everywhere) -->
-  <p>
-    <a href="https://github.com/herooslabs/HeroOS">
-      <img alt="HeroOS" src="https://img.shields.io/badge/HeroOS-Primary%20Project-black?style=for-the-badge&logo=github&logoColor=white">
-    </a>
-    <a href="https://github.com/herooslabs/HeroOS/issues">
-      <img alt="Issues" src="https://img.shields.io/badge/Issues-Track-black?style=for-the-badge&logo=githubissues&logoColor=white">
-    </a>
-    <a href="https://github.com/herooslabs/HeroOS/pulls">
-      <img alt="PRs" src="https://img.shields.io/badge/PRs-Welcome-black?style=for-the-badge&logo=git&logoColor=white">
-    </a>
-    <a href="https://github.com/herooslabs/HeroOS/blob/main/LICENSE">
-      <img alt="License" src="https://img.shields.io/badge/License-GPL--3.0-black?style=for-the-badge&logo=opensourceinitiative&logoColor=white">
-    </a>
-  </p>
+  <!-- Badges: colored backgrounds stay readable on both themes -->
+  <a href="https://github.com/herooslabs/HeroOS">
+    <img src="https://img.shields.io/badge/Main%20Project-HeroOS-00C2FF?style=for-the-badge&logo=github&logoColor=white" alt="Main Project"/>
+  </a>
+  <a href="https://github.com/herooslabs/HeroOS/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-GPL--3.0-2EA043?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License"/>
+  </a>
+  <a href="https://github.com/herooslabs/HeroOS/issues">
+    <img src="https://img.shields.io/badge/Issues-Open-F85149?style=for-the-badge&logo=githubissues&logoColor=white" alt="Issues"/>
+  </a>
+  <a href="https://github.com/herooslabs/HeroOS/pulls">
+    <img src="https://img.shields.io/badge/PRs-Welcome-7A5CFF?style=for-the-badge&logo=git&logoColor=white" alt="PRs Welcome"/>
+  </a>
 
-  <!-- Quick links -->
-  <p>
-    <a href="https://github.com/herooslabs/HeroOS"><b>Repo</b></a> ·
-    <a href="https://github.com/herooslabs/HeroOS/issues"><b>Issues</b></a> ·
-    <a href="https://github.com/herooslabs/HeroOS/pulls"><b>Pulls</b></a>
-    <!-- Add links when you have them: Docs · Website · Discord -->
-  </p>
+  <br/>
+
+  <!-- Visitor counter (optional, works on both themes) -->
+  <img src="https://komarev.com/ghpvc/?username=herooslabs&style=for-the-badge&color=00C2FF" alt="Profile views"/>
 
 </div>
 
 ---
 
-## Overview
+## ⚡ What is HeroOS Labs?
 
-**HeroOS Labs** builds system software with a simple goal: **make OS engineering understandable, auditable, and fun to work on**.
+We build **minimal, secure, developer-first systems**—starting with **HeroOS**, a practical OS project designed for learning and real engineering.
 
-We care about:
-- **Minimalism**: fewer layers, fewer surprises
-- **Security**: small attack surface, explicit boundaries
-- **Developer experience**: fast iteration loops, good tooling, clear docs
-- **Education**: code you can read, reason about, and improve
+### Core principles
+- **Minimal by design** — reduce bloat, increase understanding  
+- **Security as a baseline** — small surface area, tight boundaries  
+- **Developer-first loops** — build → boot → debug, fast and repeatable  
+- **Documentation that teaches** — not just “what”, but “why”  
 
 ---
 
-## What we’re building
+## 🚀 Current focus 
 
-### HeroOS — a minimal operating system
-A practical OS project focused on **boot-to-shell** fundamentals, built in the open.
-
-**Focus areas**
+###HeroOS:
 - Bootloader + early kernel bring-up  
-- Memory management, interrupts, and foundational drivers  
-- CLI-first userspace utilities  
-- Build & debug workflows (emulator-friendly)  
-- Documentation that teaches: “how it works” + “why we chose this”  
+- Memory / interrupts / basic drivers foundations  
+- CLI-first userspace and core tools  
+- Build system + debugging workflows (emulator-friendly)
 
 ---
 
-## Featured repository
+## 📌 Featured project
 
 <div align="center">
 
-  <!-- Repo card (usually reliable because it's repo-based, not org “activity”) -->
+  <!-- Pin card (transparent works on both themes) -->
   <img
-    alt="HeroOS repository card"
-    src="https://github-readme-stats.vercel.app/api/pin/?username=herooslabs&repo=HeroOS&hide_border=true&bg_color=FFFFFF&title_color=0B0F14&text_color=0B0F14&icon_color=0B0F14"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=herooslabs&repo=HeroOS&theme=transparent&hide_border=true"
+    alt="HeroOS repo card"
   />
 
   <br/>
 
-  <!-- Repo metrics (most reliable) -->
-  <img alt="Stars" src="https://img.shields.io/github/stars/herooslabs/HeroOS?style=flat&label=stars&color=black">
-  <img alt="Forks" src="https://img.shields.io/github/forks/herooslabs/HeroOS?style=flat&label=forks&color=black">
-  <img alt="Open issues" src="https://img.shields.io/github/issues/herooslabs/HeroOS?style=flat&label=issues&color=black">
+  <!-- Repo metrics (always readable) -->
+  <img src="https://img.shields.io/github/stars/herooslabs/HeroOS?style=for-the-badge&color=00C2FF&label=Stars" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/herooslabs/HeroOS?style=for-the-badge&color=7A5CFF&label=Forks" alt="Forks"/>
+  <img src="https://img.shields.io/github/issues/herooslabs/HeroOS?style=for-the-badge&color=FF2E93&label=Issues" alt="Issues"/>
 
 </div>
 
 ---
 
-## How to contribute
+## 🛠️ Stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,rust,linux,bash,git,github,cmake,make&perline=9" alt="Stack icons" />
+</div>
+
+---
+
+## 📈 Activity
+
+<div align="center">
+
+  <!-- Stats: transparent theme adapts nicely -->
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=herooslabs&show_icons=true&theme=transparent&hide_border=true"
+    width="49%"
+    alt="GitHub stats"
+  />
+  <img
+    src="https://streak-stats.demolab.com?user=herooslabs&theme=transparent&hide_border=true"
+    width="49%"
+    alt="GitHub streak"
+  />
+
+</div>
+
+<div align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=herooslabs&bg_color=transparent&color=7A5CFF&line=00C2FF&point=FF2E93&area=true&hide_border=true"
+    alt="Activity graph"
+  />
+</div>
+
+---
+
+## How to contribute:
 
 We welcome contributors interested in low-level engineering.
 
